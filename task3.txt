@@ -1,0 +1,39 @@
+const obj = {
+    "name" : "Deepak" ,
+    "address" : "xyxxxxx" ,
+    "email" : "abc@xyz.com",
+    "contact" : [222222,3333,5555,4444,2222222]
+}
+
+for(let i =0 ;i<obj.contact.length ; i++){
+    console.log(obj.contact[i])
+}
+for(let item in obj){
+    console.log(item)
+}
+for (let item of obj.name){
+    console.log(item)
+}
+
+
+__________________________________________________________________________________________________________________________
+
+
+
+const obj ={
+    "Name" : "Deepak Sharma",
+    "Mobile":[85858588558,999999999,33333333333],
+    "email":"abc@gmail.com",
+    "Education" : {
+        "10th": "70 percent",
+        "12th": "72 percent",
+        "B.tech":"71 percent"
+    },
+    
+    "Hobbies": ["cricket","songs","football"],
+    "skills" : ["css","java","html"]
+
+}
+
+
+_____________________________________________________________________________________________________________________
